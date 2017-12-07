@@ -19,7 +19,10 @@
 ### Bundle机制
 
 ### Handler机制，更多细节，线程如何创建，退出消息循环，Looper怎么启动
->   关键：nativePoll()阻塞
+```
+   关键：nativePoll()阻塞。
+   enqueue方法的实现。比如sendMessage,postDelay,消息入列后，顺序是怎么样的。
+ ```
 
 ### 事件传递机制
 
