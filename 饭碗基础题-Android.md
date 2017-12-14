@@ -5,6 +5,7 @@
 ### SP是进程同步吗，有什么方法做到同步？
 
 ### 介绍下SurfaceView(阿里，腾讯，大疆)
+M(Surface)V(SurfaceView)C(SurfaceHolder)
 
 ### BroadcastReceiver,LocalBroadcastReceiver区别,动态广播，静态广播。
 
@@ -32,5 +33,6 @@
 
 
 ### 计算view的嵌套层级
+采用深度优先算法。一个ViewGroup遍历完成后，再横向移动。
 
-### Intent-filter
+### Intent-Filter

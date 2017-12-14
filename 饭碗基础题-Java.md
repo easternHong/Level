@@ -1,16 +1,22 @@
 
 
 ### hashCode用来干什么的？为什么乘以31.
-a.
+a.比较对象
 
 b. n * 31 = (n<<5) - n;把乘法转化成位运算
 
+### .equals()和==有什么区别
+==是一个二元操作符，可以理解为两个对象的指针是否相等。也就是两个引用指向同一个对象的地址。
+equals表示两个对象的内容一致
 
 ### synchronize用法
 
 ### 锁机制
 
 ### volatile用法
+JVM内存模型，编译优化。
+对象在内存中的可见性。
+https://www.ibm.com/developerworks/cn/java/j-jtp06197.html
 
 ###  LruCache的原理，DiskLruCache的原理
 
